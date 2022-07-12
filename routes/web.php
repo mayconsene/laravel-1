@@ -21,3 +21,7 @@ Route::get('/hello', function(){
     $soma = 10 + 5;
     return view('hello', compact('soma'));
 });
+
+Route::get('/act',function(){
+    return view('act');
+});
